@@ -112,6 +112,12 @@ La solución se construyó como una aplicación de escritorio moderna con **C#**
       <br/><strong>Consulta operativa de horarios</strong>
     </td>
     <td align="center" width="50%">
+      <img src="docs/assets/empleado_boleto.jpeg" alt="Empleado - Boletos" width="100%"/>
+      <br/><strong>Gestión operativa de boletos</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
       <img src="docs/assets/empleado_equipaje.jpeg" alt="Empleado - Equipaje" width="100%"/>
       <br/><strong>Gestión operativa de equipaje</strong>
     </td>
