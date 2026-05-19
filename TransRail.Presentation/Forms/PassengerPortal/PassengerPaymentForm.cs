@@ -16,6 +16,7 @@ public sealed class PassengerPaymentForm : TransRailFormBase, IPassengerPaymentV
     private readonly Label _lblResumen = new() { AutoSize = true, ForeColor = TransRailTheme.InkDark, Font = TransRailTheme.NormalFont };
     private readonly Label _lblPrecio = new() { AutoSize = true, ForeColor = TransRailTheme.AccentGreen, Font = new Font("Segoe UI", 18, FontStyle.Bold) };
     private readonly PassengerPaymentPresenter _presenter;
+    private bool _loadingDraft;
 
     public PassengerPaymentForm()
     {
@@ -40,12 +41,22 @@ public sealed class PassengerPaymentForm : TransRailFormBase, IPassengerPaymentV
     public TipoBoleto TipoBoleto => _cmbTipoBoleto.SelectedValue is TipoBoleto value ? value : TipoBoleto.Estandar;
     public MetodoPago MetodoPago => _cmbMetodoPago.SelectedValue is MetodoPago value ? value : MetodoPago.TarjetaDebito;
 
+    public event EventHandler? PaymentChanged;
     public event EventHandler? SaveRequested;
 
     public void LoadDraft(PassengerPurchaseDraftDto draft)
     {
-        _cmbTipoBoleto.SelectedValue = draft.TipoBoleto;
-        _cmbMetodoPago.SelectedValue = draft.MetodoPago;
+        _loadingDraft = true;
+        try
+        {
+            _cmbTipoBoleto.SelectedValue = draft.TipoBoleto;
+            _cmbMetodoPago.SelectedValue = draft.MetodoPago;
+        }
+        finally
+        {
+            _loadingDraft = false;
+        }
+
         _lblPrecio.Text = $"Total estimado: {draft.PrecioCalculado:C}";
         _lblResumen.Text =
             $"Ruta\n{(string.IsNullOrWhiteSpace(draft.EtiquetaOrigen) ? "A\u00fan no seleccionada" : $"{draft.EtiquetaOrigen} -> {draft.EtiquetaDestino}")}\n\n" +
@@ -140,6 +151,7 @@ public sealed class PassengerPaymentForm : TransRailFormBase, IPassengerPaymentV
             .GetValues<TipoBoleto>()
             .Select(value => new SelectionOption<TipoBoleto>(value, FormatTipoBoleto(value)))
             .ToList();
+        _cmbTipoBoleto.SelectedValueChanged += (_, _) => RaisePaymentChanged();
 
         _cmbMetodoPago.DisplayMember = nameof(SelectionOption<MetodoPago>.Label);
         _cmbMetodoPago.ValueMember = nameof(SelectionOption<MetodoPago>.Value);
@@ -147,6 +159,15 @@ public sealed class PassengerPaymentForm : TransRailFormBase, IPassengerPaymentV
             .GetValues<MetodoPago>()
             .Select(value => new SelectionOption<MetodoPago>(value, FormatMetodoPago(value)))
             .ToList();
+        _cmbMetodoPago.SelectedValueChanged += (_, _) => RaisePaymentChanged();
+    }
+
+    private void RaisePaymentChanged()
+    {
+        if (!_loadingDraft)
+        {
+            PaymentChanged?.Invoke(this, EventArgs.Empty);
+        }
     }
 
     private static Control BuildInput(Control control)

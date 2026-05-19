@@ -12,6 +12,7 @@ public sealed class PassengerPaymentPresenter
     {
         _view = view;
         _useCase = useCase;
+        _view.PaymentChanged += OnPaymentChanged;
         _view.SaveRequested += OnSaveRequested;
     }
 
@@ -31,6 +32,19 @@ public sealed class PassengerPaymentPresenter
         catch (Exception ex)
         {
             _view.ShowMessage($"No se pudo actualizar el pago: {ex.Message}");
+        }
+    }
+
+    private void OnPaymentChanged(object? sender, EventArgs e)
+    {
+        try
+        {
+            _useCase.UpdatePayment(_view.TipoBoleto, _view.MetodoPago);
+            _view.LoadDraft(_useCase.GetDraft());
+        }
+        catch (Exception ex)
+        {
+            _view.ShowMessage($"No se pudo recalcular el pago: {ex.Message}");
         }
     }
 }

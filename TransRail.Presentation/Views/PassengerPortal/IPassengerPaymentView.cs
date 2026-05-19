@@ -8,6 +8,7 @@ public interface IPassengerPaymentView
     TipoBoleto TipoBoleto { get; }
     MetodoPago MetodoPago { get; }
 
+    event EventHandler? PaymentChanged;
     event EventHandler? SaveRequested;
 
     void LoadDraft(PassengerPurchaseDraftDto draft);
