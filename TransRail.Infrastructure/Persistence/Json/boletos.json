@@ -28,5 +28,15 @@
     "precio": 40.00,
     "fechaCompraUtc": "2026-05-19T00:12:06.496035Z",
     "codigo": "BOL-002"
+  },
+  {
+    "idInterno": "4b769b6f-33ce-426e-ac99-f2f4da185607",
+    "codigoBoleto": "BOL-003",
+    "codigoPasajero": "PAS-001",
+    "codigoHorario": "HOR-2026-002",
+    "tipoBoleto": 3,
+    "precio": 127.50,
+    "fechaCompraUtc": "2026-05-19T02:19:30.5999096Z",
+    "codigo": "BOL-003"
   }
 ]

@@ -18,5 +18,15 @@
     "fechaPagoUtc": "2026-05-19T00:12:06.5015225Z",
     "confirmado": true,
     "codigo": "PAG-002"
+  },
+  {
+    "idInterno": "2c53400c-4fd1-4bcf-ac59-18c87aebf076",
+    "codigoPago": "PAG-003",
+    "codigoBoleto": "BOL-003",
+    "metodo": 2,
+    "valor": 127.50,
+    "fechaPagoUtc": "2026-05-19T02:19:30.6064716Z",
+    "confirmado": true,
+    "codigo": "PAG-003"
   }
 ]
