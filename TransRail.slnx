@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="TransRail.Application/TransRail.Application.csproj" />
+  <Project Path="TransRail.Domain/TransRail.Domain.csproj" />
+  <Project Path="TransRail.Infrastructure/TransRail.Infrastructure.csproj" />
+  <Project Path="TransRail.Presentation/TransRail.Presentation.csproj" />
+  <Project Path="TransRail.Tests/TransRail.Tests.csproj" />
+</Solution>

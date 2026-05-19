@@ -1,0 +1,110 @@
+[
+  {
+    "idInterno": "884b2831-93bb-43e4-a338-7ae58b91a982",
+    "codigoRuta": "RUT-A-B",
+    "codigoEstacionOrigen": "A",
+    "codigoEstacionDestino": "B",
+    "distanciaKm": 30,
+    "activa": true,
+    "codigo": "RUT-A-B"
+  },
+  {
+    "idInterno": "48ff9898-9dc9-4f6a-99e1-eb3357b47f7b",
+    "codigoRuta": "RUT-A-C",
+    "codigoEstacionOrigen": "A",
+    "codigoEstacionDestino": "C",
+    "distanciaKm": 40,
+    "activa": true,
+    "codigo": "RUT-A-C"
+  },
+  {
+    "idInterno": "7f8c9649-630c-4506-9401-21c123e7fdf0",
+    "codigoRuta": "RUT-A-D",
+    "codigoEstacionOrigen": "A",
+    "codigoEstacionDestino": "D",
+    "distanciaKm": 50,
+    "activa": true,
+    "codigo": "RUT-A-D"
+  },
+  {
+    "idInterno": "9d1c4c6f-97dc-45e2-9dd4-97e8305333b5",
+    "codigoRuta": "RUT-A-F",
+    "codigoEstacionOrigen": "A",
+    "codigoEstacionDestino": "F",
+    "distanciaKm": 50,
+    "activa": true,
+    "codigo": "RUT-A-F"
+  },
+  {
+    "idInterno": "2c51f68b-0420-458f-9ae7-ba6ec4857e4f",
+    "codigoRuta": "RUT-D-E",
+    "codigoEstacionOrigen": "D",
+    "codigoEstacionDestino": "E",
+    "distanciaKm": 20,
+    "activa": true,
+    "codigo": "RUT-D-E"
+  },
+  {
+    "idInterno": "88d87053-35f2-4aef-bcca-39fee78b009e",
+    "codigoRuta": "RUT-E-F",
+    "codigoEstacionOrigen": "E",
+    "codigoEstacionDestino": "F",
+    "distanciaKm": 65,
+    "activa": true,
+    "codigo": "RUT-E-F"
+  },
+  {
+    "idInterno": "c43f5572-00c9-4bd9-90df-622ede2a02b3",
+    "codigoRuta": "RUT-F-G",
+    "codigoEstacionOrigen": "F",
+    "codigoEstacionDestino": "G",
+    "distanciaKm": 80,
+    "activa": true,
+    "codigo": "RUT-F-G"
+  },
+  {
+    "idInterno": "8c092c96-c18b-45dc-ac04-b89ba8bb48ba",
+    "codigoRuta": "RUT-G-H",
+    "codigoEstacionOrigen": "G",
+    "codigoEstacionDestino": "H",
+    "distanciaKm": 30,
+    "activa": true,
+    "codigo": "RUT-G-H"
+  },
+  {
+    "idInterno": "7eef5220-08ef-4d6c-96ed-7d00087da91d",
+    "codigoRuta": "RUT-G-I",
+    "codigoEstacionOrigen": "G",
+    "codigoEstacionDestino": "I",
+    "distanciaKm": 145,
+    "activa": true,
+    "codigo": "RUT-G-I"
+  },
+  {
+    "idInterno": "c351525a-ec01-42a6-b298-2a81c5960300",
+    "codigoRuta": "RUT-C-I",
+    "codigoEstacionOrigen": "C",
+    "codigoEstacionDestino": "I",
+    "distanciaKm": 80,
+    "activa": true,
+    "codigo": "RUT-C-I"
+  },
+  {
+    "idInterno": "41555c48-e1d3-44ef-9331-917513feb120",
+    "codigoRuta": "RUT-C-J",
+    "codigoEstacionOrigen": "C",
+    "codigoEstacionDestino": "J",
+    "distanciaKm": 120,
+    "activa": true,
+    "codigo": "RUT-C-J"
+  },
+  {
+    "idInterno": "632499e9-509d-4a34-a862-7aa70832a34c",
+    "codigoRuta": "RUT-C-K",
+    "codigoEstacionOrigen": "C",
+    "codigoEstacionDestino": "K",
+    "distanciaKm": 110,
+    "activa": true,
+    "codigo": "RUT-C-K"
+  }
+]

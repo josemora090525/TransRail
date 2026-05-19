@@ -1,0 +1,20 @@
+[
+  {
+    "idInterno": "b34079ae-80d5-4f7d-99db-d468b2b9a374",
+    "codigoVagon": "VG-001",
+    "codigoTren": "TR-001",
+    "tipo": 1,
+    "capacidad": 80,
+    "pesoMaximoKg": 0,
+    "codigo": "VG-001"
+  },
+  {
+    "idInterno": "a8f9455d-c3ed-4c7d-8cd1-f88c1da7aa45",
+    "codigoVagon": "VG-002",
+    "codigoTren": "TR-001",
+    "tipo": 2,
+    "capacidad": 40,
+    "pesoMaximoKg": 2500,
+    "codigo": "VG-002"
+  }
+]

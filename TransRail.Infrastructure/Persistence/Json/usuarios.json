@@ -1,0 +1,47 @@
+[
+  {
+    "$tipo": "administrador",
+    "idInterno": "c9578292-651f-4a2e-8553-14c2c2214210",
+    "codigoUsuario": "USR-ADM-001",
+    "nombreCompleto": "Admin TransRail",
+    "numeroDocumento": "1000001",
+    "correo": "admin@transrail.local",
+    "contrasena": "admin123",
+    "rol": 1,
+    "codigo": "USR-ADM-001"
+  },
+  {
+    "$tipo": "empleado",
+    "idInterno": "d0cf75d0-b6a8-4fdb-9acf-226edeb8f207",
+    "codigoUsuario": "USR-EMP-001",
+    "nombreCompleto": "Empleado TransRail",
+    "numeroDocumento": "2000001",
+    "correo": "empleado@transrail.local",
+    "contrasena": "empleado123",
+    "rol": 2,
+    "codigo": "USR-EMP-001"
+  },
+  {
+    "$tipo": "pasajero",
+    "nombres": "Maria",
+    "apellidos": "Perez",
+    "tipoIdentificacion": "CC",
+    "direccion": "",
+    "telefono": "",
+    "nombreContacto": "",
+    "apellidoContacto": "",
+    "telefonoContacto": "",
+    "equipajeDeMano": "",
+    "categoria": 2,
+    "esAdultoMayor": false,
+    "tieneDiscapacidad": false,
+    "idInterno": "4507db96-6ef5-4138-9c38-3d3a63961b24",
+    "codigoUsuario": "USR-PAS-001",
+    "nombreCompleto": "Maria Perez",
+    "numeroDocumento": "3000001",
+    "correo": "pasajero@transrail.local",
+    "contrasena": "pasajero123",
+    "rol": 3,
+    "codigo": "USR-PAS-001"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "idInterno": "cd38fc76-1400-4769-8c1e-8cca5cc3926b",
+    "codigoBoleto": "BOL-001",
+    "codigoPasajero": "PAS-001",
+    "codigoHorario": "HOR-2026-001",
+    "tipoBoleto": 1,
+    "precio": 15.00,
+    "fechaCompraUtc": "2026-05-18T22:53:48.732777Z",
+    "codigo": "BOL-001"
+  },
+  {
+    "idInterno": "c7412a65-0cdf-405f-94e5-e00ee7cb335d",
+    "codigoBoleto": "BOL-EMP-001",
+    "codigoPasajero": "PAS-EMP-001",
+    "codigoHorario": "HOR-2026-001",
+    "tipoBoleto": 3,
+    "precio": 22.50,
+    "fechaCompraUtc": "2026-05-18T23:34:27.7979477Z",
+    "codigo": "BOL-EMP-001"
+  },
+  {
+    "idInterno": "12c23aca-c2e4-45fe-8151-c5998d49c36e",
+    "codigoBoleto": "BOL-002",
+    "codigoPasajero": "PAS-001",
+    "codigoHorario": "HOR-2026-001",
+    "tipoBoleto": 1,
+    "precio": 40.00,
+    "fechaCompraUtc": "2026-05-19T00:12:06.496035Z",
+    "codigo": "BOL-002"
+  }
+]

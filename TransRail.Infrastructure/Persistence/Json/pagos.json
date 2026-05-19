@@ -1,0 +1,22 @@
+[
+  {
+    "idInterno": "fb265318-69c3-440d-917a-164387550f49",
+    "codigoPago": "PAG-001",
+    "codigoBoleto": "BOL-001",
+    "metodo": 2,
+    "valor": 15.00,
+    "fechaPagoUtc": "2026-05-18T22:53:48.7522001Z",
+    "confirmado": true,
+    "codigo": "PAG-001"
+  },
+  {
+    "idInterno": "6b0c5f28-2fe5-46f0-8032-81e6b5a64c38",
+    "codigoPago": "PAG-002",
+    "codigoBoleto": "BOL-002",
+    "metodo": 2,
+    "valor": 40.00,
+    "fechaPagoUtc": "2026-05-19T00:12:06.5015225Z",
+    "confirmado": true,
+    "codigo": "PAG-002"
+  }
+]

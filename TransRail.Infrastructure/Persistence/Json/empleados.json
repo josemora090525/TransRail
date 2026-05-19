@@ -1,0 +1,12 @@
+[
+  {
+    "idInterno": "72f93a46-3ecd-4852-aedf-201a3fc6b185",
+    "codigoUsuario": "EMP-001",
+    "nombreCompleto": "Carlos Ruiz",
+    "numeroDocumento": "2000001",
+    "correo": "empleado@transrail.local",
+    "contrasena": "empleado123",
+    "rol": 2,
+    "codigo": "EMP-001"
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "idInterno": "d66f6140-9b34-4bc0-90a2-ba202ad40ee9",
+    "codigoHorario": "HOR-2026-001",
+    "codigoTren": "TR-001",
+    "codigoRuta": "RUT-A-B",
+    "fecha": "2026-05-18",
+    "horaSalida": "08:30:00",
+    "horaLlegada": "09:15:00",
+    "key": {
+      "fecha": "2026-05-18",
+      "horaSalida": "08:30:00",
+      "codigoTren": "TR-001"
+    },
+    "codigo": "HOR-2026-001"
+  },
+  {
+    "idInterno": "38619952-7154-4f91-ad33-f006d468a883",
+    "codigoHorario": "HOR-2026-002",
+    "codigoTren": "TR-001",
+    "codigoRuta": "RUT-A-C",
+    "fecha": "2026-05-19",
+    "horaSalida": "07:10:00",
+    "horaLlegada": "08:05:00",
+    "key": {
+      "fecha": "2026-05-19",
+      "horaSalida": "07:10:00",
+      "codigoTren": "TR-001"
+    },
+    "codigo": "HOR-2026-002"
+  },
+  {
+    "idInterno": "7571d4b1-3098-4132-8f88-f1f7cddcd5e8",
+    "codigoHorario": "HOR-2026-003",
+    "codigoTren": "TR-001",
+    "codigoRuta": "RUT-A-D",
+    "fecha": "2026-05-19",
+    "horaSalida": "10:20:00",
+    "horaLlegada": "11:20:00",
+    "key": {
+      "fecha": "2026-05-19",
+      "horaSalida": "10:20:00",
+      "codigoTren": "TR-001"
+    },
+    "codigo": "HOR-2026-003"
+  },
+  {
+    "idInterno": "770950a0-74b0-4e4e-9625-b3e8510ce744",
+    "codigoHorario": "HOR-2026-004",
+    "codigoTren": "TR-001",
+    "codigoRuta": "RUT-D-E",
+    "fecha": "2026-05-20",
+    "horaSalida": "09:15:00",
+    "horaLlegada": "09:45:00",
+    "key": {
+      "fecha": "2026-05-20",
+      "horaSalida": "09:15:00",
+      "codigoTren": "TR-001"
+    },
+    "codigo": "HOR-2026-004"
+  },
+  {
+    "idInterno": "55cf3370-e648-4bc5-b7f7-d115fbc4ee39",
+    "codigoHorario": "HOR-2026-005",
+    "codigoTren": "TR-001",
+    "codigoRuta": "RUT-C-I",
+    "fecha": "2026-05-20",
+    "horaSalida": "14:00:00",
+    "horaLlegada": "15:35:00",
+    "key": {
+      "fecha": "2026-05-20",
+      "horaSalida": "14:00:00",
+      "codigoTren": "TR-001"
+    },
+    "codigo": "HOR-2026-005"
+  }
+]

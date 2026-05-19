@@ -1,0 +1,79 @@
+[
+  {
+    "idInterno": "0511b748-5365-4b24-8ab8-47d896c39690",
+    "codigoEstacion": "A",
+    "nombre": "Estaci\u00F3n Medell\u00EDn Central",
+    "ciudad": "Medell\u00EDn",
+    "codigo": "A"
+  },
+  {
+    "idInterno": "440dcfd8-29b8-4ded-aa93-89553366fe5f",
+    "codigoEstacion": "B",
+    "nombre": "Estaci\u00F3n Bogot\u00E1 Terminal",
+    "ciudad": "Bogot\u00E1",
+    "codigo": "B"
+  },
+  {
+    "idInterno": "f729a0a2-8de1-43c6-9aa3-672376815e80",
+    "codigoEstacion": "C",
+    "nombre": "Estaci\u00F3n Cali Valle",
+    "ciudad": "Cali",
+    "codigo": "C"
+  },
+  {
+    "idInterno": "a079e9fe-588a-454f-94b4-66053da4cf96",
+    "codigoEstacion": "D",
+    "nombre": "Estaci\u00F3n Barranquilla Norte",
+    "ciudad": "Barranquilla",
+    "codigo": "D"
+  },
+  {
+    "idInterno": "43ff7cbd-417c-4807-8e29-6143d4c19d20",
+    "codigoEstacion": "E",
+    "nombre": "Estaci\u00F3n Cartagena Bah\u00EDa",
+    "ciudad": "Cartagena",
+    "codigo": "E"
+  },
+  {
+    "idInterno": "de1346bb-47e1-4db7-9ca9-00e637cb2550",
+    "codigoEstacion": "F",
+    "nombre": "Estaci\u00F3n Bucaramanga Andina",
+    "ciudad": "Bucaramanga",
+    "codigo": "F"
+  },
+  {
+    "idInterno": "c183cf56-50a2-4365-a982-8295ceac9581",
+    "codigoEstacion": "G",
+    "nombre": "Estaci\u00F3n Pereira Cafetera",
+    "ciudad": "Pereira",
+    "codigo": "G"
+  },
+  {
+    "idInterno": "74023f34-cd6f-4c3d-9e6b-1a4ab16b804b",
+    "codigoEstacion": "H",
+    "nombre": "Estaci\u00F3n Manizales Cable",
+    "ciudad": "Manizales",
+    "codigo": "H"
+  },
+  {
+    "idInterno": "0beaa547-14ae-4c5c-bab3-7fb9b3f9c656",
+    "codigoEstacion": "I",
+    "nombre": "Estaci\u00F3n C\u00FAcuta Frontera",
+    "ciudad": "C\u00FAcuta",
+    "codigo": "I"
+  },
+  {
+    "idInterno": "dd529c08-73ea-4f14-bf4d-12884db9cacf",
+    "codigoEstacion": "J",
+    "nombre": "Estaci\u00F3n Santa Marta Mar",
+    "ciudad": "Santa Marta",
+    "codigo": "J"
+  },
+  {
+    "idInterno": "3e641981-4fc7-49e3-b165-cde50d90b514",
+    "codigoEstacion": "K",
+    "nombre": "Estaci\u00F3n Villavicencio Llanos",
+    "ciudad": "Villavicencio",
+    "codigo": "K"
+  }
+]

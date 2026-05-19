@@ -1,0 +1,12 @@
+[
+  {
+    "idInterno": "25897ea8-7f12-4391-b08d-110a9bf9dc6e",
+    "codigoTren": "TR-001",
+    "numeroOperativo": "001",
+    "nombre": "Tren Andino",
+    "capacidadVagones": 10,
+    "kilometraje": 12000,
+    "enCirculacion": true,
+    "codigo": "TR-001"
+  }
+]

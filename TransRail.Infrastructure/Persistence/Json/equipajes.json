@@ -1,0 +1,20 @@
+[
+  {
+    "idInterno": "eb5e7ca9-c107-4d4f-b2dc-fff5c72a9e14",
+    "codigoEquipaje": "EQ-001",
+    "codigoBoleto": "BOL-001",
+    "codigoVagonCarga": "VG-001",
+    "pesoKg": 18.5,
+    "descripcion": "Maleta de cabina",
+    "codigo": "EQ-001"
+  },
+  {
+    "idInterno": "bdf14e11-1411-419f-97f3-66dc3bb1bb01",
+    "codigoEquipaje": "EQ-EMP-001",
+    "codigoBoleto": "BOL-EMP-001",
+    "codigoVagonCarga": "VG-001",
+    "pesoKg": 125,
+    "descripcion": "Maleta azul",
+    "codigo": "EQ-EMP-001"
+  }
+]
