@@ -45,33 +45,106 @@ La solución se construyó como una aplicación de escritorio moderna con **C#**
 
 <table>
   <tr>
-    <td align="center" width="50%">
-      <img src="docs/assets/01_login.svg" alt="Inicio de sesión" width="100%"/>
+    <td align="center" colspan="2">
+      <img src="docs/assets/inicio_sesion.jpeg" alt="Inicio de sesión de TransRail" width="90%"/>
       <br/><strong>Inicio de sesión</strong>
     </td>
+  </tr>
+</table>
+
+### Panel administrador
+
+<table>
+  <tr>
     <td align="center" width="50%">
-      <img src="docs/assets/02_admin_menu.svg" alt="Menú administrador" width="100%"/>
-      <br/><strong>Menú administrador</strong>
+      <img src="docs/assets/administrador_trenes.jpeg" alt="Administrador - Trenes" width="100%"/>
+      <br/><strong>Gestión de trenes</strong>
+    </td>
+    <td align="center" width="50%">
+      <img src="docs/assets/administrador_vagones.jpeg" alt="Administrador - Vagones" width="100%"/>
+      <br/><strong>Gestión de vagones</strong>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="docs/assets/03_routes.svg" alt="Gestión de rutas" width="100%"/>
+      <img src="docs/assets/administrador_estaciones.jpeg" alt="Administrador - Estaciones" width="100%"/>
+      <br/><strong>Gestión de estaciones</strong>
+    </td>
+    <td align="center">
+      <img src="docs/assets/administrador_ruta.jpeg" alt="Administrador - Rutas" width="100%"/>
       <br/><strong>Rutas y matriz de distancias</strong>
     </td>
+  </tr>
+  <tr>
     <td align="center">
-      <img src="docs/assets/04_schedules.svg" alt="Gestión de horarios" width="100%"/>
-      <br/><strong>Horarios</strong>
+      <img src="docs/assets/administrador_horario.jpeg" alt="Administrador - Horarios" width="100%"/>
+      <br/><strong>Gestión de horarios</strong>
+    </td>
+    <td align="center">
+      <img src="docs/assets/administrador_pasajero.jpeg" alt="Administrador - Pasajeros" width="100%"/>
+      <br/><strong>Gestión de pasajeros</strong>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="docs/assets/05_passenger_routes.svg" alt="Portal de pasajero" width="100%"/>
-      <br/><strong>Portal del pasajero</strong>
+      <img src="docs/assets/administrador_empleado.jpeg" alt="Administrador - Empleados" width="100%"/>
+      <br/><strong>Gestión de empleados</strong>
     </td>
     <td align="center">
-      <img src="docs/assets/06_payment_checkout.svg" alt="Pago y confirmación" width="100%"/>
-      <br/><strong>Pago y confirmación de compra</strong>
+      <img src="docs/assets/administrador_abordaje.jpeg" alt="Administrador - Abordaje" width="100%"/>
+      <br/><strong>Abordaje con cola de prioridad</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <img src="docs/assets/administrador_equipaje.jpeg" alt="Administrador - Equipaje" width="80%"/>
+      <br/><strong>Equipaje y pila de carga</strong>
+    </td>
+  </tr>
+</table>
+
+### Panel empleado
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="docs/assets/empleado_horario.jpeg" alt="Empleado - Horarios" width="100%"/>
+      <br/><strong>Consulta operativa de horarios</strong>
+    </td>
+    <td align="center" width="50%">
+      <img src="docs/assets/empleado_equipaje.jpeg" alt="Empleado - Equipaje" width="100%"/>
+      <br/><strong>Gestión operativa de equipaje</strong>
+    </td>
+  </tr>
+</table>
+
+### Portal pasajero
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="docs/assets/pasajero_datos.jpeg" alt="Pasajero - Mis datos" width="100%"/>
+      <br/><strong>Mis datos</strong>
+    </td>
+    <td align="center" width="50%">
+      <img src="docs/assets/pasajero_rutas.jpeg" alt="Pasajero - Rutas disponibles" width="100%"/>
+      <br/><strong>Rutas disponibles con Dijkstra</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="docs/assets/pasajero_equipaje.jpeg" alt="Pasajero - Equipaje" width="100%"/>
+      <br/><strong>Registro de equipaje</strong>
+    </td>
+    <td align="center">
+      <img src="docs/assets/pasajero_pago.jpeg" alt="Pasajero - Método de pago" width="100%"/>
+      <br/><strong>Método de pago</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <img src="docs/assets/pasajero_compra.jpeg" alt="Pasajero - Confirmar compra" width="80%"/>
+      <br/><strong>Confirmación de compra</strong>
     </td>
   </tr>
 </table>
